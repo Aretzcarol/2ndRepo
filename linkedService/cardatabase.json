@@ -1,0 +1,17 @@
+{
+	"name": "cardatabase",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "carkeyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "dbconnection"
+			}
+		}
+	}
+}
