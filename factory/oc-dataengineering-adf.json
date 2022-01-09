@@ -1,0 +1,9 @@
+{
+	"name": "oc-dataengineering-adf",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3fca9b8b-e1d8-47c8-8555-1506912ec205",
+		"tenantId": "c445b1a5-0d0a-41ae-90ff-6ab9a1e6c4d5"
+	}
+}
